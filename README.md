@@ -83,7 +83,8 @@ Manually edited information that Excel auto-formatting couldn't handle:
 
 #### Key Design Decision
 Multi-item invoices entered as **multiple rows** (one row per product line) sharing the same `Invoice_ID` to enable product-level analysis in SQL.
-
+![Before](images/FILE_1_INVOICES BEFORE.png)
+![After](images/FILE_1_INVOICES AFTER.png)
 ---
 
 ## 📧 FILE 2: EMAILS (`FILE_2_EMAILS.txt`)
@@ -112,7 +113,8 @@ Multi-item invoices entered as **multiple rows** (one row per product line) shar
 - Standardized customer names using `=PROPER()`
 - Extracted `Order_IDs` where mentioned using text search
 - Cleaned and exported dataset
-
+![Before](imagesFILE_2_EMAILS BEFORE.png)
+![After](images/FILE_2_EMAILS AFTER.png)
 ---
 
 ## 💬 FILE 3: WHATSAPP (`FILE_3_WHATSAPP.txt`)
@@ -144,7 +146,8 @@ Multi-item invoices entered as **multiple rows** (one row per product line) shar
 - Verified Role assignments
 - Ensured message text preserved original abbreviations and tone (`u`, `pls`, `2day`)
 - Exported dataset
-
+![Before](images/FILE_3_WHATSAPP BEFORE.png)
+![After](images/FILE_3_WHATSAPP AFTER.png)
 ---
 
 ## 🔌 FILE 4: API JSON (`FILE_4_API_JSON.json`)
@@ -179,7 +182,8 @@ Identified nested JSON structure with inconsistent key naming:
 - Standardized `customer_name` field (resolved customerName vs. customer_name inconsistency)
 - Validated TRUE/FALSE values for boolean flags
 - Exported dataset
-
+![Before](images/FILE_4_API_JSON BEFORE.png)
+![After](images/FILE_4_API_JSON AFTER.png)
 ---
 
 ## 📦 FILE 5: LOGISTICS (`FILE_5_LOGISTICS.txt`)
@@ -213,7 +217,8 @@ Identified nested JSON structure with inconsistent key naming:
 - Standardized date format to `YYYY-MM-DD`
 - Standardized time format to `HH:MM` (24-hour)
 - Exported dataset
-
+![Before](images/FILE_5_LOGISTICS BEFORE.png)
+![After](images/FILE_5_LOGISTICS AFTER.png)
 ---
 
 ## 🎫 FILE 6: SUPPORT TICKETS (`FILE_6_SUPPORT_TICKETS.txt`)
@@ -268,7 +273,8 @@ Identified nested JSON structure with inconsistent key naming:
 - Standardized date format to `YYYY-MM-DD`
 - Cross-referenced `Related_Order_ID` against Invoices/API datasets for validation
 - Exported dataset
-
+![Before](images/FILE_6_SUPPORT_TICKETS BEFORE.png)
+![After](images/FILE_6_SUPPORT_TICKETS AFTER.png)
 ---
 
 ## 🧹 Data Quality & Cleaning Standards
@@ -373,6 +379,6 @@ These datasets are now ready for:
 
 
 ---
-## This data was forked from my practice account 'saoenc' and was performed by solomon ogunyeye ayodele
+## This data was forked from my practice account 'saoenc' and was performed by solomon ayodele ogunyeye 
 
 **⭐ If you found this project helpful, please give it a star!**
