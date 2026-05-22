@@ -83,8 +83,12 @@ Manually edited information that Excel auto-formatting couldn't handle:
 
 #### Key Design Decision
 Multi-item invoices entered as **multiple rows** (one row per product line) sharing the same `Invoice_ID` to enable product-level analysis in SQL.
+
+| 
 ![Before](images/FILE_1_INVOICES BEFORE.png)
 ![After](images/FILE_1_INVOICES AFTER.png)
+
+| 
 ---
 
 ## 📧 FILE 2: EMAILS (`FILE_2_EMAILS.txt`)
