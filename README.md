@@ -86,6 +86,8 @@ Multi-item invoices entered as **multiple rows** (one row per product line) shar
 
 | 
 ![Before](images/FILE_1_INVOICES BEFORE.png)
+
+
 ![After](images/FILE_1_INVOICES AFTER.png)
 
 | 
