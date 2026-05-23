@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/banner.png">
+</p>
+
 # Data-Entry
 # DATA ENTRY PROJECT README
 
